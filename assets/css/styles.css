@@ -4,7 +4,7 @@
   margin: 0;
 }
 .header {
-  width: 1080;
+  width: 1920px;
   height: 100px;
   background-color: #ffb72b;
   display: flex;
@@ -36,6 +36,9 @@
     display: inline-block;
 } */
 input[type="text"] {
+  position: absolute;
+  top: 23px;
+  left: 1132px;
   font-size: 15px;
   width: 303px;
   height: 55px;
@@ -43,24 +46,35 @@ input[type="text"] {
   border-radius: 15px;
   font-size: 16px;
   background-color: white;
+  border-color: #ffffff;
 }
+/* .icon {
+  padding-left: 25px;
+  background-size: 20px;
+} */
 .info p {
   text-align: right;
   font-size: 20px;
 }
 .main-menu {
+  font-size: 28px;
   width: 1700px;
   height: 765px;
   border-collapse: collapse;
   position: absolute;
   left: 162px;
-  top: 279px;
+  top: 250px;
   border: 1px solid black;
-  border-radius: 1em;
+  border-radius: 10%;
+}
+tr a {
+  text-decoration: none;
+  color: black;
+}
+tr .row-delete {
+  color: red;
 }
 .main-menu th {
-    font-size: 28px;
-    height: 80px;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
@@ -71,14 +85,31 @@ input[type="text"] {
 }
 .main-menu td {
   font-size: 28px;
-  height: 80px;
+  /* height: 80px; */
   text-align: center;
 }
-.main-menu td, .main-menu th {
-    border-top: 1px solid black;
-    column-rule: none;
-   padding: 8px;
- }
+.main-menu td,
+.main-menu th {
+  border-top: 1px solid black;
+  padding: 8px;
+}
+.search-recycle input[type="text"] {
+  width: 303px;
+  height: 51px;
+  position: absolute;
+  left: 1455px;
+  top: 166px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #d9d9d9;
+  color: black;
+}
+.fas-bell{
+  position: absolute;
+  left: 1447px;
+  top: 31px;
+}
 /* .fa-bell {
   position: absolute;
   width: 40px;
