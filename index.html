@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="/assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css"
     />
+    <link rel="stylesheet" href="/assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css">
     <title>Document</title>
   </head>
   <body>
@@ -39,10 +40,9 @@
       </div>
     </div>
     <header class="header">
-      <div class="nav nav__form">
-        <form>
-          <input class="icon" type="text" name="search" />
-        </form>
+      <div class="nav__form">
+        <i class="fa-solid fa-magnifying-glass fa-2x icon"></i>
+        <input class="input-field" type="text" name="search" />
       </div>
       <div class="nav nav__icon--info">
         <i class="fas fa-bell fa-2x"></i>
@@ -58,13 +58,17 @@
       </div>
     </header>
     <div class="search-recycle">
-      <form>
-        <input type="text" name="search" placeholder="Search Recycle Bin"/>
-      </form>
+        <i class="fa-solid fa-magnifying-glass fa-2x icon"></i>
+      <input
+        class="input-field"
+        type="text"
+        name="search"
+        placeholder="Search Recycle Bin"
+      />
     </div>
     <table class="main-menu">
       <tr>
-        <th>Recycle Bin</th>
+        <td>Recycle Bin</td>
       </tr>
       <tr>
         <th>Name</th>
