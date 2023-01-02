@@ -3,6 +3,9 @@
   padding: 0;
   margin: 0;
 }
+body{
+  max-width: 1920px;
+}
 .header {
   width: 1920px;
   height: 100px;
@@ -10,6 +13,28 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+.header .nav__form {
+  margin-right: 0px;
+}
+.header .nav__icon--info {
+  margin-right: 120px;
+}
+.header .nav__icon--info .fa-circle{
+  color: red;
+  position: absolute;
+  top: 32px;
+  left: 1450px;
+}
+.header .nav__text{
+  margin-left: 0;
+}
+.header .na
+.header .nav__user--circle {
+  margin-right: 81px;
+}
+.header .nav__user--circle .fa-user-circle{
+  padding-left: 25px;
 }
 .sidebar {
   width: 100px;
@@ -22,7 +47,7 @@
   left: 0;
   top: 0;
 }
-.sidebar a{
+.sidebar a {
   margin-top: 16px;
   padding: 16px;
   border-radius: 15px;
@@ -31,7 +56,7 @@
   /* color: black; */
   background-color: #ffb72b;
 }
-.sidebar .item6 a{
+.sidebar .item6 a {
   color: black;
   background-color: #ffb72b;
 }
@@ -45,31 +70,62 @@
   padding: 1em;
   text-decoration: none;
 }
-.nav__form i{
+.nav__form i {
   position: absolute;
 }
-.nav__form{
+.nav__form {
   margin-bottom: 10px;
 }
-.icon{
-  padding: 10px;
+.icon {
+  padding: 10px 10px 10px 15px;
   min-width: 40px;
   color: #ffb72b;
 }
-.input-field{
-  padding: 10px;
-  padding-left: 45px;
+.input-field {
+  padding-top: 5px;
+  padding-left: 55px;
   text-align: left;
   width: 303px;
   height: 55px;
   border-radius: 15px;
   outline: none;
   border: none;
-  font-size: 20px;
+  font-size: 22px;
+}
+.search-recycle {
+  position: absolute;
+  left: 1385px;
+  top: 166px;
+}
+.search-recycle .input-field-recycle {
+  font-size: 18px;
+  padding-left: 15px;
+  position: relative;
+  width: 303px;
+  height: 51px;
+  border-radius: 10px;
+  background: #d9d9d9;
+  border: none;
+  outline: none;
+  padding-right: 42px;
+}
+.search-recycle .icon {
+  position: absolute;
+  right: 0;
+  color: #8a8a8a;
+}
+.nav__text .info{
+  margin-top: 1px;
 }
 .info p {
   text-align: right;
-  font-size: 20px;
+  font-size: 22px;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.info p:nth-child(2) {
+  color: #606060;
 }
 .main-menu {
   font-size: 28px;
@@ -103,7 +159,7 @@ tr .row-delete {
 .main-menu th {
   padding: 8px;
 }
-.search-recycle .input-field {
+/* .search-recycle .input-field {
   width: 303px;
   height: 51px;
   position: absolute;
@@ -114,4 +170,4 @@ tr .row-delete {
   text-align: left;
   background-color: #d9d9d9;
   color: black;
-}
+} */
